@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between; /* Align items to opposite ends */
+    align-items: center; /* Vertically center items */
+    background-color: black;
+    padding: 10px;
+  }
+  
+  .navbar h1 {
+    color: white;
+    margin: 0; /* Remove default margin */
+  }
+  
+  .navbar ul {
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Use flexbox for list items */
+    align-items: center; /* Vertically center items */
+  }
+  
+  .navbar li {
+    margin-left: 20px; /* Add spacing between list items */
+    justify-content: right;
+  }
+  
+  .navbar li:first-child {
+    margin-left: auto; /* Push the first item to the right */
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center; /* Center the text inside the links */
+  }
+  
+  
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    height: 50px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+#logo {
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  
+  #logo_p {
+    position: absolute;
+    top: 0; /* Position the paragraph at the top of the image */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 2; /* Ensure the paragraph appears above the image */
+  } 
+
+p{
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .item {
+    text-align: center;
+    border: 1px solid #000; /* border style */
+    padding: 10px; /* add padding */
+    width: calc(50% - 20px); /* Adjust width as needed */
+  }
+  
+  .item p {
+    margin: 0;
+  }
+  
+  .item img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  
+
